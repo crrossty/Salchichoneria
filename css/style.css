@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.index_body{
+    background-color: #fff;
+}
+
+.nav{
+    padding: 0%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav_list{
+    display: block;
+    background-image: url("../imagenes/mobile/header.jpg");
+    background-size: cover;
+}
+
+.nav_element{
+    list-style: none;
+}
+
+.nav_list{
+    display: flex;
+    gap: 1.5rem;
+}
+.nav_link{
+color: black;
+font-size: 2rem;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+
+@media (min-width: 768px) {
+
+/* Para escritorio */
+.index_body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url('../imagenes/escritorio/Fondo.jpg');
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    min-height: 500px;
+    
+}
+
+.body{
+    background-image: url('../imagenes/escritorio/Fondo.jpg');
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    min-height: 500px;
+}
+.contenido{
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    gap: 400px;
+    
+   
+}
+
+.nav{
+    padding: 0%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav_list{
+    display: block;
+    background-image: none;
+}
+
+.nav_element{
+    list-style: none;
+}
+
+.nav_list{
+    display: flex;
+    gap: 1.5rem;
+}
+.nav_link{
+color: black;
+font-size: 1.5rem;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.foor_element{
+    list-style: none;
+    display: flex;
+    padding: 0%;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot{
+    align-content: center;
+    bottom: 0;
+    
+    padding-bottom: 0%;
+    
+}
+
+.foot_list{
+    display: flex;
+    padding: 0%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container-slider{
+    width: 600px;
+    height: 600px;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff, 0 15px 50px;
+    position: relative;
+}
+.slider_img{
+    display: block;
+    width: 600px;
+    height: 600px;*/
+    
+    object-fit: cover;
+}
+
+.slider__section{
+    width: 100%;
+}
+.slider{
+    display: flex;
+    width: 300%;
+    height: 300px;
+}
+.slider_btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.slider_btn--rigth{
+    right: 10px;
+}
+.slider_btn--lefth{
+    left: 10px;
+}
+
+.slider_btn:hover{
+    background-color: #fff;
+}
+
+/**Carnes Frias y Quesos **/
+.section_frias{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    list-style: none;
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.element_frias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;    
+}
+
+.descripcion{
+    color:blue;
+    font-size: 1.5rem;
+}
+.precio{
+font-weight: bold;
+font-size: 2rem;
+}
+.img_fria{
+    width: 250px;
+    height: 250px;
+}
+
+.grid_section{
+    font-weight: bold;
+    font-size: 4rem;
+    font-style: italic;
+    color: red;
+}
+
+.section_quesos{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    list-style: none;
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    }
+    .element_quesos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    }
+
+    .img_quesos{
+    width: 250px;
+    height: 250px;
+    }
+
+
+
+
